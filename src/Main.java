@@ -22,7 +22,8 @@ public class Main {
 	// Meant to sort in ascending order
     public static void bubbleSort(int[] data) {
 		// check data size
-		if (data.length <= 1) {//if the size of the array is less than or equal to one it should return nothing since the data is already sorted
+        //if the size of the array is less than or equal to one it should return nothing since the data is already sorted
+		if (data.length <= 1) {
 			return;
 		}
 
