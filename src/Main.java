@@ -22,7 +22,7 @@ public class Main {
 	// to sort in ascending order
     public static void bubbleSort(int[] data) {
 		// check data size
-		if (data.length>0) {
+		if (data.length == 0) {
 			return;
 		}
 
